@@ -63,6 +63,10 @@
     <Compile Include="PagerFragment_1.cs" />
     <Compile Include="PagerAdapter.cs" />
     <Compile Include="PagerFragment_2.cs" />
+    <Compile Include="PagerFragment_3.cs" />
+    <Compile Include="PagerFragment_4.cs" />
+    <Compile Include="PagerFragment_5.cs" />
+    <Compile Include="PagerFragment_6.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -80,6 +84,21 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
     <AndroidResource Include="Resources\layout\Fragment_1.axml" />
     <AndroidResource Include="Resources\layout\Fragment_2.axml" />
+    <AndroidResource Include="Resources\layout\Fragment_3.axml" />
+    <AndroidResource Include="Resources\layout\Fragment_4.axml" />
+    <AndroidResource Include="Resources\layout\Fragment_5.axml" />
+    <AndroidResource Include="Resources\layout\Fragment_6.axml" />
+    <AndroidResource Include="Resources\drawable\icono.png" />
+    <AndroidResource Include="Resources\drawable\fragment2.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable\fragment3.png" />
+    <AndroidResource Include="Resources\drawable\fragment1.png" />
+    <AndroidResource Include="Resources\drawable\fragment4.png" />
+    <AndroidResource Include="Resources\drawable\fondo.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

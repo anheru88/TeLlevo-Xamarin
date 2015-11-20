@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 namespace TeLLevo
 {
-	[Activity (Label = "TeLLevo", MainLauncher = true, Icon = "@mipmap/icon")]
+	[Activity (Label = "Te LLevo", MainLauncher = true)]
 	public class MainActivity : Activity
 	{
 
@@ -26,9 +26,17 @@ namespace TeLLevo
 
 			PagerFragment_1 pager1 = new PagerFragment_1 ();
 			PagerFragment_2 pager2 = new PagerFragment_2 ();
+			PagerFragment_3 pager3 = new PagerFragment_3 ();
+			PagerFragment_4 pager4 = new PagerFragment_4 ();
+			PagerFragment_5 pager5 = new PagerFragment_5 ();
+			PagerFragment_6 pager6 = new PagerFragment_6 ();
 
 			this.fragments.Add (pager1);
 			this.fragments.Add (pager2);
+			this.fragments.Add (pager3);
+			this.fragments.Add (pager4);
+			this.fragments.Add (pager5);
+			this.fragments.Add (pager6);
 
 			pagerAdapter = new PagerAdapter (this.FragmentManager, this.fragments);
 
