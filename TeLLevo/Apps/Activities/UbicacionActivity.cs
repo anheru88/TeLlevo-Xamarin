@@ -70,9 +70,7 @@ namespace TeLLevo
 
 		public void OnMapReady (GoogleMap googleMap)
 		{
-			//mMap = googleMap;
-
-
+			mMap = googleMap;
 		}
 
 		public void OnProviderDisabled (string provider)

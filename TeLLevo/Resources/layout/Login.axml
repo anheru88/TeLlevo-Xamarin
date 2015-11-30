@@ -46,7 +46,7 @@
         android:textColorHighlight="#ffffffff"
         android:textColorHint="#ffffffff"
         android:textColorLink="#ffffffff"
-        android:imeOptions="actionNext" />
+        android:nextFocusDown="@+id/siTxtPassword" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
