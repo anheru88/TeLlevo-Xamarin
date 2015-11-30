@@ -45,7 +45,8 @@
         android:textColor="#ffffffff"
         android:textColorHighlight="#ffffffff"
         android:textColorHint="#ffffffff"
-        android:textColorLink="#ffffffff" />
+        android:textColorLink="#ffffffff"
+        android:imeOptions="actionNext" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

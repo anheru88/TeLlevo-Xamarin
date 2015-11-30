@@ -2,4 +2,5 @@
 <resources>
 	<string name="hello">Hello World, Click Me!</string>
 	<string name="app_name">Te LLevo</string>
+	<string name="google_maps_key">AIzaSyBXtR0MOGl9pl-T-SzU7vsn8Yn7pEKU_CI</string>
 </resources>
