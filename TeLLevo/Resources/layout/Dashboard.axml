@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:background="@android:color/holo_green_dark">
+        <ImageButton
+            android:src="@android:drawable/ic_menu_agenda"
+            android:id="@+id/imageButton1"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp" />
+        <ImageButton
+            android:src="@android:drawable/ic_search_category_default"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/transparent" />
+        <ImageButton
+            android:src="@android:drawable/btn_star"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton3"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+        <ImageButton
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton4"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/linearLayout2"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:text="Cartagena"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:textStyle="bold"
+            android:textSize="25sp" />
+        <TextView
+            android:text="Time"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="80dp" />
+    </LinearLayout>
+    <Button
+        android:text="Te Llevo a Casa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+    <Button
+        android:text="Proximos Servicios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp" />
+    <Button
+        android:text="Mi Ubicación"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp" />
+</LinearLayout>

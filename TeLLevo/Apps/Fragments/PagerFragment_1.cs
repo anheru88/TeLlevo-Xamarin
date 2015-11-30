@@ -16,6 +16,7 @@ namespace TeLLevo
 {
 	public class PagerFragment_1 : Fragment
 	{
+		Button btn;	
 		public override void OnCreate (Bundle savedInstanceState)
 		{
 			base.OnCreate (savedInstanceState);
@@ -29,7 +30,12 @@ namespace TeLLevo
 			// return inflater.Inflate(Resource.Layout.YourFragment, container, false);
 
 			View view = inflater.Inflate (Resource.Layout.Fragment_1, container, false);
+			btn = view.FindViewById<Button> (Resource.Id.button1);
 
+			btn.Click += (sender, e) => {
+				Intent intent = new Intent(Activity, typeof(LoginActivity));
+				this.StartActivity(intent);
+			};
 			return view;
 		}
 	}

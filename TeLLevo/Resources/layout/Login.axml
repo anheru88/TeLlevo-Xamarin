@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@drawable/fondo">
+    <TextView
+        android:text="Iniciar Sesión"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+    <ImageView
+        android:src="@drawable/icono"
+        android:layout_height="100dp"
+        android:id="@+id/imageView1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_width="match_parent" />
+    <TextView
+        android:text="Te Llevo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/siTxtUsername"
+        android:hint="Correo Electronico"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffffffff"
+        android:textColorHighlight="#ffffffff"
+        android:textColorHint="#ffffffff"
+        android:textColorLink="#ffffffff" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/siTxtPassword"
+        android:hint="Contraseña"
+        android:password="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:textColor="#ffffffff"
+        android:textColorHighlight="#ffffffff"
+        android:textColorHint="#ffffffff"
+        android:textColorLink="#ffffffff" />
+    <Button
+        android:text="Iniciar Sesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/siBtn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp" />
+</LinearLayout>
